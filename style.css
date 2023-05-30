@@ -34,11 +34,15 @@ html{
 }
 .image{
     width: 13rem;
+    position: absolute;
+
 }
 .image img{
     width: 70%;
     border: 1px solid gray;
     border-radius: 10rem;
+    position: absolute;
+
 }
 .left-info h1{
     font-size: 4rem;
