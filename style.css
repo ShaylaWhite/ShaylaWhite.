@@ -23,7 +23,6 @@ html{
     height: 100vh;
     background-color: #f3f5f9;
     display: flex;
-    flex-shrink: 0;
 }
 .left-data{
     width: 100%;
