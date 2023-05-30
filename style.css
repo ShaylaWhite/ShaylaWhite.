@@ -17,7 +17,6 @@ html{
 .container{
    width: 100%;
    display: flex;
-   flex-shrink: 0;
 }
 .left{
     width: 50rem;
@@ -25,7 +24,6 @@ html{
     background-color: #f3f5f9;
     display: flex;
     flex-shrink: 0;
-
 }
 .left-data{
     width: 100%;
@@ -36,16 +34,13 @@ html{
     padding: 3rem 0;
 }
 .image{
-    width: 13rem;
-    
-
+    width: 18rem;
 }
 .image img{
-    width: 70%;
+    width: 100%;
     border: 1px solid gray;
     border-radius: 10rem;
-    
-
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .left-info h1{
     font-size: 4rem;
